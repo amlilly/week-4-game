@@ -1,0 +1,30 @@
+body {
+    background-image: url("../images/backgrounds/concreteSeamless.png");
+}
+
+.jumbotron {
+    background-image: url("../images/backgrounds/darkSharpEdges.png");
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    color: silver;
+    text-shadow: 3px 3px #fff;
+    font-size: 75px;
+}
+
+.instructions {
+    text-align: center; 
+}
+
+.container-fluid {
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.winsLosses {
+    margin-bottom: 30px;
+}
