@@ -32,3 +32,23 @@ h3 {
 .container-fluid {
     padding:0;
 }
+
+@media (max-width: 768px) {
+
+    .imageOne {
+        width: 100px;
+        height: 100px;
+    }
+    .imageTwo {
+        width: 100px;
+        height: 100px;  
+    }
+    .imageThree {
+        width: 100px;
+        height: 100px;
+    }
+    .imageFour {
+        width: 100px;
+        height: 100px;
+    }
+}
