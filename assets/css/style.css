@@ -28,3 +28,7 @@ h3 {
 .winsLosses {
     margin-bottom: 30px;
 }
+
+.container-fluid {
+    padding:0;
+}
