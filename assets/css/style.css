@@ -33,22 +33,44 @@ h3 {
     padding:0;
 }
 
-@media (max-width: 768px) {
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.imageOne:active {
+    filter: invert(100%);
+}
+
+.imageTwo:active {
+    filter: invert(100%);
+}
+
+.imageThree:active {
+    filter: invert(100%);
+}
+
+.imageFour:active {
+    filter: invert(100%);
+}
+
+
+@media (max-width: 949px) {
 
     .imageOne {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
     .imageTwo {
-        width: 100px;
-        height: 100px;  
+        width: 150px;
+        height: 150px;  
     }
     .imageThree {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
     .imageFour {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
 }
