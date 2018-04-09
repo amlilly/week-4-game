@@ -33,10 +33,7 @@ h3 {
     padding:0;
 }
 
-img:hover {
-    opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
-}
+
 
 .imageOne:active {
     filter: invert(100%);
@@ -58,19 +55,19 @@ img:hover {
 @media (max-width: 949px) {
 
     .imageOne {
-        width: 150px;
-        height: 150px;
+        width: 133px;
+        height: 133px;
     }
     .imageTwo {
-        width: 150px;
-        height: 150px;  
+        width: 133px;
+        height: 133px;  
     }
     .imageThree {
-        width: 150px;
-        height: 150px;
+        width: 133px;
+        height: 133px;
     }
     .imageFour {
-        width: 150px;
-        height: 150px;
+        width: 133px;
+        height: 133px;
     }
 }
